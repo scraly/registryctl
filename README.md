@@ -24,6 +24,17 @@ More infos: https://docs.ovh.com/gb/en/customer/first-steps-with-ovh-api/
 go run main.go ovhMpr get
 ```
 
+Example of result:
+
+```
+NAME                    STATUS  REGION  URL                                                     VERSION CREATED AT                 
+my-registry-01d0aa3     READY   GRA     https://xxxxxxxx.c1.gra9.container-registry.ovh.net     2.6.4   2023-12-13T15:10:26.72334Z 
+my-registry-8bbe01f     READY   GRA     https://yyyyyy.c1.gra9.container-registry.ovh.net       2.6.4   2023-12-19T12:40:44.442604Z
+my-new-registry         READY   GRA     https://zzzzzz.c1.gra9.container-registry.ovh.net       2.6.4   2023-11-22T14:11:53.250714Z
+my-registry-b425251     READY   GRA     https://aaaaaaa.c1.gra9.container-registry.ovh.net      2.6.4   2024-01-05T13:02:59.536574Z
+my-registry             READY   GRA     https://bbbbbb.gra7.container-registry.ovh.net          2.6.4   2022-04-12T09:36:36.559078Z
+```
+
 ## Build
 
 ```bash
